@@ -1,0 +1,14 @@
+/* CSS Document */
+@font-face {
+	font-family: 'Dosis';
+	font-style: normal;
+	font-weight:400;
+	src: url(dosis/font.woff2) format('woff2')
+	
+	
+}
+div{
+	font-family:dosis;
+	
+}
+
