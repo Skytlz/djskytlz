@@ -17,6 +17,17 @@ body{
 		
 	}
 	
+span{
+		color: orange;
+		text-align: center;
+		font: 15px 'Dosis', sans-serif;
+		font-size: 100px;
+		font-weight: lighter;
+		position: fixed;
+		width: 100%;
+		top:50%;
+		
+	}
 	
 
 div.header{
