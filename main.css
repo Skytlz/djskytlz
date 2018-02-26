@@ -1,10 +1,37 @@
 body{
-		background-color: #5A6EFE;
-		height: 100%;
-		width: 100%;
-		
-	}
+	animation: RAINBOW 20s infinite;
+	-webkit-animation: RAINBOW 20s infinite;
+	animation-timing-function: linear;
+	-webkit-animation-timing-function:linear;
 	
+	min-height: 100vh;	
+}
+@-webkit-keyframes RAINBOW {
+	0% {background-color: #FF7F7F;} 
+	10% { background-color: #FC3636; }
+    20% { background-color: #FF0000; }
+    30% { background-color: #FF7F00; }
+    40% { background-color: #FFFF00; }
+    50% { background-color: #00FF00; }
+    60% { background-color: #0000FF; }
+    70% { background-color: #4B0082; }
+    80% { background-color: #8B00FF; }
+    90% { background-color: #C37FFF; }
+    100% { background-color: #FF7F7F; }
+}
+@keyframes RAINBOW {
+	0% {background-color: #FF7F7F;} 
+	10% { background-color: #FC3636; }
+    20% { background-color: #FF0000; }
+    30% { background-color: #FF7F00; }
+    40% { background-color: #FFFF00; }
+    50% { background-color: #00FF00; }
+    60% { background-color: #0000FF; }
+    70% { background-color: #4B0082; }
+    80% { background-color: #8B00FF; }
+    90% { background-color: #C37FFF; }
+    100% { background-color:#FF7F7F; }
+}	
 	h1{
 		color: orange;
 		text-align: center;
@@ -16,7 +43,6 @@ body{
 		top:50%;
 		
 	}
-	
 span{
 		color: orange;
 		text-align: center;
@@ -28,8 +54,6 @@ span{
 		top:50%;
 		
 	}
-	
-
 div.header{
 	color:orange;
 	text-align:center;
@@ -43,4 +67,3 @@ div.header{
 	margin-right:auto;
 	width:100vw;
 }
-
