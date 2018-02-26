@@ -7,7 +7,7 @@ djskytlz.com website
 <li><strike>Fix ratio of the page to fit all screens</strike></li>
 <li><strike>Add External CSS</strike></li>
 <li><strike>Work on main CSS for the site</strike></li>
-<li><strike>Add featured lsited items on main<strike></li>
+<li><strike>Add featured lsited items on main</strike></li>
 <li>Work on HTML and CSS for listed items</li>
 <li>Bug fix</li>
 <li>Publish</li>
