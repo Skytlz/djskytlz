@@ -3,8 +3,7 @@ body{
 	-webkit-animation: RAINBOW 20s infinite;
 	animation-timing-function: linear;
 	-webkit-animation-timing-function:linear;
-	
-	min-height: 100vh;	
+		
 }
 @-webkit-keyframes RAINBOW {
 	0% {background-color: #FF7F7F;} 
@@ -43,18 +42,8 @@ body{
 		top:50%;
 		
 	}
-span{
-		color: orange;
-		text-align: center;
-		font: 15px 'Dosis', sans-serif;
-		font-size: 100px;
-		font-weight: lighter;
-		position: fixed;
-		width: 100%;
-		top:50%;
-		
-	}
-div.header{
+
+div{
 	color:orange;
 	text-align:center;
 	font-family: 'Dosis', sans-serif;
