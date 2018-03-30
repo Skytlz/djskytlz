@@ -1,3 +1,4 @@
+
 .img,.img img,.list,.wrapper{position:relative}
 
 body,html{height:100%}
@@ -16,13 +17,45 @@ img{
 	width:4em
 }.cursor,.icon{position:absolute}
 
-h1{
+div.header{
 	font-family: "Raleway", "Dosis", sans-sarif;
-	
-	color:#6AB2FF
+	color:#6AB2FF;
+	margin:.67em 0;
+	font-size: 2em;
+	font-weight: bold;
 }
 
+h1{
+	font-family: "Raleway", "Dosis", sans-sarif;
+	color:#6AB2FF;
+	text-align:center;
+	max-height:100vh;
+	display:table-cell;
+	vertical-align:middle;
+	height:10vh;
+	margin-left:auto;
+	margin-right:auto;
+	width:100vw;
+}
 
+.uganda{
+	font-family: "Dosis", sans-sarif;
+	color: red;
+	position: relative;
+}
+.uganda::before,
+.uganda::after{
+	content: attr(data-text);
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+div{
+	font-family: "Dosis", sans-sarif;
+	color: red;
+}
 
 a{
 	text-decoration: none;
@@ -33,8 +66,30 @@ a{
 	cursor:default
 	
 }
-
-
+input[type=text], select, textarea{
+	width:100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+input[type=submit]{
+	background-color:darkblue;
+	color:white;
+	padding: 12px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input[type=submit]:hover{
+	background-color: red;
+}
+.container{
+	border-radius:5px;
+	background-color: #EADBCF;
+}
 span:hover{
 	
 	color:#FF895D;
