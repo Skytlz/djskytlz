@@ -10,6 +10,34 @@ body{
 	margin:auto;
 	margin-top: 0.67em;
 }
+.projects{
+	width:23.1%;
+	margin: auto;
+	margin-top:0.67em;
+}
+.paragraph{
+	
+}
+img{
+	width: 512px;
+	height: 512px;
+	border-radius: 50%;
+	align-content: center;
+	margin-left: 12em;
+	
+}
+
+p{
+	color: #A09C85;
+	width: 81%;
+	display: block;
+	cursor:default;
+	text-align: justify;
+	margin-left:5em;
+	font-weight: 100;
+	font-size: 32px;
+	
+}
 
 ul{
 	list-style: none;	
@@ -35,6 +63,7 @@ h1{
 	margin-left:auto;
 	margin-right:auto;
 	width:100vw;
+	font-size: 88px;
 }
 
 div{
