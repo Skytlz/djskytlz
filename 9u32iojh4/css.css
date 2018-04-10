@@ -1,6 +1,8 @@
 
 .list,.wrapper{position:relative}
-
+.list{
+	width:100%;
+}
 body{
 	font-size: 2.5em;
 	background-color: #EADBCF;
@@ -23,7 +25,8 @@ img{
 	height: 512px;
 	border-radius: 50%;
 	align-content: center;
-	margin-left: 12em;
+	margin-left: 12
+		em;
 	
 }
 
