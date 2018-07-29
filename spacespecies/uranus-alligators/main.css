@@ -1,0 +1,19 @@
+/* CSS Document */
+body{
+	background-color:black;
+	background-image:url(../../Assets/icontranscent.png);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.clockdiv{
+	color:white;
+	font-size:100px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: bottom;
+	display: table-cell;
+	width:100vw;
+	height:95vh;
+	
+}
