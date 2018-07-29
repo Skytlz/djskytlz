@@ -1,0 +1,21 @@
+/* CSS Document */
+body{
+	background-color:black;
+	background-image: url(../../Assets/title/icon.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	
+}
+.clockdiv{
+	color:white;
+	font-size: 100px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: bottom;
+	display:table-cell;
+	width:100vw;
+	max-height: 100vh;
+	height:95vh;
+	
+}
