@@ -1,0 +1,17 @@
+body{background-color:#000000;
+background-image:url(../../Assets/title/icon.png);
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+h1{
+	color:#ffffff;
+	font-weight: bold;
+	font-size: 100px;
+	vertical-align:bottom;
+	text-align: center;
+	display: table-cell;
+	width:100vw;
+	height:100vh;
+}
