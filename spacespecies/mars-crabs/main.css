@@ -1,0 +1,613 @@
+/* CSS Document */
+
+/* CSS Document */
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	font: 16px Arial, Helvetica, sans-serif;
+	color: #FFF;
+	background-image: url(https://fnaflore.com/wp-content/uploads/2016/01/DarkConcrete.png);
+	background-color:#000000;
+	font-family:Arial, Helvetica, sans-serif;
+}
+img {
+	border-style:none;
+}
+
+a:link {color:#0094FF;}      /* unvisited link */
+a:visited {color:#0094FF;}  /* visited link */
+a:hover {color:#00CCFF;}  /* mouse over link */
+a:active {color:#00FFFF;}  /* selected link */ 
+
+/*WORDPRESS STYLE*/
+
+.divbeg{
+	height:100vh;
+	width:100vw;
+	overflow:hidden;
+	position:fixed;
+	z-index: 3;
+	
+}
+.scrollLeft{
+	height:100vh;
+	width:100vw;
+	background: #000;
+	background: -webkit-linear-gradient(#000, #222);
+	background: -o-linear-gradient(#000, #222);
+	background: -moz-linear-gradient(#000, #222);
+	background: linear-gradient(#000, #222);
+}
+.tdstyle{
+	vertical-align: middle;
+}
+#left{
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -ms-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+	background: #000; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#000, #222); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#000, #222); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#000, #222); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#000, #222); /* Standard syntax (must be last) */
+	background-color:#000;
+	text-align: center;
+}
+#left td{
+	text-align: center;
+	vertical-align: middle;
+	font-family: CODE;
+	letter-spacing: 2px;
+	width:100vw;
+	font-size:24px;
+	font-weight:900;
+	text-align: center;
+}
+.sl{
+	display:inline-block;
+	height:30vh;
+	width:100vw;
+	background-image:url(icontranscent.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:auto 100%;
+}
+.mainbody{
+	height: 100vh;
+	width: 100vw;
+	z-index: -1;
+	
+}
+
+.alignnone {
+  
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+  
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+p:empty {
+  display: none;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+/*END WORDPRESS STYLE*/
+
+#Container {
+	display: block; 
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	width: 1024px;
+	position:relative;
+}
+
+#ReminderBox {
+	display:block;
+  position:absolute;
+  top:0px;
+  left:0px;
+  border-width:0px 3px 3px 0px;
+  border-color:#FFF;
+  border-style:solid;
+  border-bottom-right-radius: 20px;
+  width:250px;
+  height:60px;
+  text-align:center;
+  z-index:2;
+  background-color:#000;
+}
+
+#Header {
+	height:200px;
+	padding-bottom:20px;
+}
+
+#SubtitlePlacement {
+	width:200px;
+	margin:150px 0px 0px 480px;
+    position: absolute;
+	z-index:0;
+}
+#status {
+	width:500px;
+	height:auto;
+    position: absolute;
+    font-family: YellowSubmarine;
+	font-size:30px;
+	text-align:center;
+	line-height:25px;
+	text-shadow:0px 0px 10px #000, 0px 0px 10px #000;
+	letter-spacing:1px;
+}
+.pop {
+    animation: pop 0.75s infinite ease-in-out;
+    font-smoothing: antialiased  !important;
+    -webkit-animation: pop 0.75s infinite ease-in-out;
+    -webkit-font-smoothing: antialiased  !important;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -mz-backface-visibility: hidden;
+}
+
+@keyframes pop {
+    from {
+        transform:scale3d(1,1,1)
+    }
+    50% {
+        transform:scale3d(0.9,0.9,0.9)
+    }
+    to {
+        transform:scale3d(1,1,1)
+    }
+}
+@-webkit-keyframes pop {
+    from {
+        -webkit-transform:scale3d(1,1,1)
+    }
+    50% {
+        -webkit-transform:scale3d(0.9,0.9,0.9)
+    }
+    to {
+        -webkit-transform:scale3d(1,1,1)
+    }
+}
+.tilt {
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+
+.MenuBarul {
+height:50px;
+display: block;
+margin: 0px;
+padding: 0px;
+list-style: none;
+z-index: 1;
+color: #FFFFFF;
+line-height: 50px;
+background-color: #000;
+position: relative;
+}
+.MenuBarul ul {
+margin: 0px;
+padding: 0px;
+}
+.MenuBarul li {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    height: 50px;
+    width: 128px;
+    -webkit-transition: background-color 1s, -webkit-box-shadow 1s, -moz-box-shadow 1s, box-shadow 1s;
+    transition: background-color 1s, -webkit-box-shadow 1s, -moz-box-shadow 1s, box-shadow 1s;
+    z-index: 2;
+    -webkit-box-shadow: inset 0px 0px 24px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 24px 4px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 24px 4px rgba(0,0,0,0.75);
+}
+.MenuBarul li:hover, .MenuBarul li:focus {
+    -webkit-box-shadow: inset 0px 0px 12px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 12px 2px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 12px 2px rgba(0,0,0,0.75);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.MenuBarul li.SmallSubmenu {
+    width: 64px;
+    font: 14px Arial, Helvetica, sans-serif;
+}
+.MenuBarul li:first-child {
+    border-radius: 20px 0px 0px 20px;
+}
+.MenuBarul li:last-child {
+    border-radius: 0px 20px 20px 0px;
+}
+/* Freddy */
+.TimelineSubmenu  {
+    background-color: #C25F00;
+}
+.TimelineSubmenu:hover, .TimelineSubmenu:focus {
+    background-color: #F37700;
+}
+/* Bonnie */
+.ResourceSubmenu {
+    background-color: #4F4F88;
+}
+.ResourceSubmenu:hover, .ResourceSubmenu:focus {
+    background-color: #6363AB;
+}
+/* Chica */
+.FangameSubmenu {
+    background-color: #A58F05;
+}
+.FangameSubmenu:hover, .FangameSubmenu:focus {
+    background-color: #CFB307;
+}
+/* Foxy */
+.ArcadeSubmenu {
+    background-color: #CB0000;
+}
+.Dullmenu {
+    background-color: #663333;
+}
+.ArcadeSubmenu:hover, .ArcadeSubmenu:focus {
+    background-color: #FE0000;
+}
+
+.Dullmenu:hover, .Dullmenu:focus {
+    background-color: #664C4C;
+}
+.MenuBarul .ArcadeSubmenu a {
+    line-height:25px;
+}
+/* Puppet */
+.ToDoSubmenu {
+    background-color: #939393;
+}
+.ToDoSubmenu:hover, .ToDoSubmenu:focus {
+    background-color: #C9C9C9;
+}
+/* Fredbear Plush */
+.CommunitySubmenu {
+    background-color: #A02626;
+}
+.CommunitySubmenu:hover, .CommunitySubmenu:focus {
+    background-color: #D63232;
+}
+/* Discord */
+.DiscordSubmenu {
+    background-color: #576AA5;
+}
+.DiscordSubmenu:hover, .DiscordSubmenu:focus {
+    background-color: #7289DA;
+}
+/* Reddit Alien */
+.RedditSubmenu {
+    background-color: #CCC;
+}
+.RedditSubmenu:hover, .RedditSubmenu:focus {
+    background-color: #FFF;
+}
+/* Balloons */
+.ForumSubmenu {
+    background-color: #0066CC;
+}
+.ForumSubmenu:hover, .ForumSubmenu:focus {
+    background-color: #007DFF;
+}
+/* Envelope */
+.ContactSubmenu {
+    background-color: #53185E;
+}
+.ContactSubmenu:hover, .ContactSubmenu:focus {
+    background-color: #842593;
+}
+.MenuBarul a {
+    display: block;
+    line-height: 50px;
+    text-decoration: none;
+}
+.MenuBarul a:link {
+    color: #FFFFFF;
+}
+.MenuBarul a:visited {
+    color: #EEEEEE;
+}
+.MenuBarul a:hover {
+    color: #FFFFFF;
+}
+.MenuBarul a:active {
+    color: #FFFFFF;
+}
+.MenuIcon {
+position: absolute;
+display: block;
+top: 0px;
+height: 0px;
+left: 0px;
+z-index: 0;
+overflow: hidden;
+-webkit-transition: all 1s;
+-moz-transition: all 1s;
+-ms-transition: all 1s;
+-o-transition: all 1s;
+transition: all 1s;
+}
+.MenuBarul li:hover .MenuIcon {
+top: -45px;
+height: 45px;
+-webkit-transition: all 1s;
+-moz-transition: all 1s;
+-ms-transition: all 1s;
+-o-transition: all 1s;
+transition: all 1s;
+}
+.MenuBarBottom .MenuIcon {
+top: 0px;
+position:relative;
+text-align:left;
+}
+.MenuBarBottom li:hover .MenuIcon {
+top: 0px;
+height: 45px;
+}
+.MenuBarBottom .MenuIcon img {
+position:absolute;
+bottom:0px;
+}
+
+#MenuBar
+{
+	background-color:#000;
+	height:50px;
+	border-radius:20px;
+	z-index:1;
+}
+
+.TopMenuBar
+{
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  z-index:1;
+  color: #FFFFFF;
+  line-height: 50px;
+  background-color:#000;
+  position: relative;
+}
+
+.TopMenuBar li
+{
+  display: block;
+  position: relative;
+  cursor: pointer;
+  float:left;
+  text-align:center;
+  height: 50px;
+  width: 256px;
+	-webkit-transition: background-color 1s, -webkit-box-shadow 1s, -moz-box-shadow 1s, box-shadow 1s;
+    transition: background-color 1s, -webkit-box-shadow 1s, -moz-box-shadow 1s, box-shadow 1s;
+	z-index:2;
+	-webkit-box-shadow: inset 0px 0px 24px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 24px 4px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 24px 4px rgba(0,0,0,0.75);
+}
+
+#FreddyBar {
+background-color:#C25F00;
+}
+#BonnieBar {
+background-color:#4F4F88;
+}
+#ChicaBar {
+background-color:#A58F05;
+}
+#FoxyBar {
+background-color:#CB0000;
+}
+#ObservationBar {
+  background-color:#579BCC;
+}
+#ForumBar {
+background-color:#CC5100;
+}
+
+#FreddyBar:hover,
+#FreddyBar:focus {
+background-color:#F37700;
+}
+#BonnieBar:hover,
+#BonnieBar:focus {
+background-color:#6363AB;
+}
+#ChicaBar:hover,
+#ChicaBar:focus {
+background-color:#CFB307;
+}
+#FoxyBar:hover,
+#FoxyBar:focus {
+background-color:#FE0000;
+}
+#ObservationBar:hover,
+#ObservationBar:focus {
+  background-color: #6DC2FF;
+}
+#ForumBar:hover,
+#ForumBar:focus {
+background-color:#FF6A00;
+}
+
+
+
+#Footer {
+height:230px;
+overflow:hidden;
+font-size:10px;
+padding-top:120px;
+background-image: url(https://fnaflore.com/wp-content/uploads/2016/01/PizzeriaBorder.png);
+background-repeat: repeat-x;
+background-position:top;
+position:relative;
+min-width: 1024px;
+overflow:visible;
+}
+
+#FooterSegment {
+float:left;
+width:300px;
+padding:0px 20px;
+}
+
+#FooterSegment ul {
+  list-style: none;
+padding:0px;
+}
+#FooterSegment li {
+padding-bottom:4px;
+}
+
+#FooterSegment a {
+color:#FFF;
+font-weight:bolder;
+}
+
+
+h1 {
+	font-family: ScottGamesFont;
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: 40px;
+}
+.MainHeader {
+  margin-top:0px;
+  text-align: center;
+  font-family: YellowSubmarine;
+}
+
+
+
+#FooterFan {
+width:60%;
+height:200%;
+background-image: url(https://cdn.discordapp.com/attachments/331127345471815680/433361807944450054/jaqui_o_et.gif);
+background-size:600px 500px;
+position:absolute;
+right:0px;
+top:-205px;
+z-index:2;
+}
+
+
+
+
