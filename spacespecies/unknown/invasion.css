@@ -1,0 +1,74 @@
+body{background-color:black; margin: 0;}
+.clock{
+	background: url(../../Assets/clock/stardust.png) no-repeat center;
+	background-size:contain;
+	height:90vh;
+	width:50vw;
+	position: absolute;
+	left:25%;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	overflow: hidden;
+}
+.icon{
+	background: url(../../Assets/clock/iconclock.png) no-repeat center;
+	background-size:contain;
+	height:90vh;
+	width:6vw;
+	position: absolute;
+	left:44%;
+	z-index: 10;
+}
+
+.mContainer, .hContainer, .sContainer, .iconContainer{
+	position: absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+}
+.hours{
+	  background: #000;
+  height: 20%;
+  left: 48.75%;
+  position: absolute;
+  top: 30%;
+  transform-origin: 50% 100%;
+  width: 2%;
+}
+.minutes{
+	background: #000;
+  height: 35%;
+  left: 49%;
+  position: absolute;
+  top: 15%;
+  transform-origin: 50% 100%;
+  width: 2%;
+}
+.seconds{
+  background: #000;
+  height: 40%;
+  left: 49.5%;
+  position: absolute;
+  top:19%;
+  transform-origin: 50% 80%;
+  width: 1%;
+  z-index: 8;
+
+}
+
+@keyframes rotate{
+	100%{
+		transform: rotateZ(360deg);
+	}
+}
+.hContainer{
+	animation: rotate 43200s infinite linear;
+}
+.mContainer{
+	animation: rotate 3600s infinite linear;
+}
+.sContainer{
+	animation: rotate 60s infinite linear;
+}
+
