@@ -37,16 +37,26 @@ body{
 		
 	}
 
-div{
+.header{
 	color:orange;
 	text-align:center;
 	font-family: 'Dosis', sans-serif;
 	font-size:100px;
-	max-height:100vh;
 	display:table-cell;
 	vertical-align:middle;
-	height:100vh;
-	margin-left:auto;
-	margin-right:auto;
+	height:60vh;
 	width:100vw;
+	font-weight: bold;
+}
+.collections{
+	text-decoration:none;
+	text-align: center;
+	color:orange;
+	font-family: 'Dosis', sans-serif;
+	font-size: 70px;
+	vertical-align: middle;
+	display:block;
+	max-height:100vh;
+	height:40vh;
+	width:97vw;
 }
